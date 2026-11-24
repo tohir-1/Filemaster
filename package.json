@@ -1,0 +1,32 @@
+{
+  "name": "filemaster-bot",
+  "version": "1.0.0",
+  "description": "Professional free Telegram file converter bot - PDF, Word, Excel, Images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "setup": "npm install"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "pdf",
+    "converter",
+    "filemaster",
+    "telegraf"
+  ],
+  "author": "FileMaster",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.5",
+    "telegraf": "^4.16.3",
+    "uuid": "^11.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
